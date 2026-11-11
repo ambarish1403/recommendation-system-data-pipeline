@@ -1,0 +1,32 @@
+{
+  "experiment": "DM4ML-Assignment-2-Recommendations",
+  "params": {
+    "k": 5,
+    "relevance_threshold": 4.0,
+    "seed": 42
+  },
+  "metrics": [
+    {
+      "model": "Popularity baseline",
+      "k": 5,
+      "precision_at_k": 0.017647058823529415,
+      "recall_at_k": 0.08823529411764706,
+      "ndcg_at_k": 0.04610380486199808,
+      "coverage": 0.1375,
+      "diversity": 0.7970588235294116,
+      "mae": 0.7380718954248365,
+      "rmse": 0.8670458756937132
+    },
+    {
+      "model": "Item-item collaborative filtering",
+      "k": 5,
+      "precision_at_k": 0.011764705882352941,
+      "recall_at_k": 0.058823529411764705,
+      "ndcg_at_k": 0.040615580987395816,
+      "coverage": 0.65,
+      "diversity": 0.7352941176470588,
+      "mae": NaN,
+      "rmse": NaN
+    }
+  ]
+}

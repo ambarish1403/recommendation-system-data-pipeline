@@ -1,0 +1,5 @@
+user_id,item_id,rating,timestamp,validation_errors
+U0000,I0000,8.0,2024-12-01T00:00:00Z,rating_out_of_range
+UNKNOWN,I0001,4.0,2024-12-02T00:00:00Z,unknown_user_id
+U0001,NOT_AN_ITEM,5.0,not-a-date,invalid_timestamp;unknown_item_id
+U0002,I0002,,2024-12-03T00:00:00Z,missing_required_value;invalid_rating_type;rating_out_of_range

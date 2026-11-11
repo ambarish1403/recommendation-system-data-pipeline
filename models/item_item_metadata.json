@@ -1,0 +1,6 @@
+{
+  "algorithm": "item-item collaborative filtering",
+  "similarity": "cosine",
+  "rating_threshold_for_recommendation": 4.0,
+  "n_items": 80
+}

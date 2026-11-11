@@ -1,0 +1,9 @@
+feature,entity,definition,availability,data_type
+user_activity_count,User,Count of training interactions,Training,Count
+user_average_rating,User,Mean rating given by user,Training,Float
+preferred_category,User,Most-interacted item category,Training,Category
+days_since_last_interaction,User,Days from latest training interaction,Training,Days
+item_popularity,Item,Distinct users interacting with item,Training,Count
+item_average_rating,Item,Mean training rating for item,Training,Float
+item_rating_count,Item,Number of training ratings,Training,Count
+rating_deviation_from_user_mean,Interaction,Rating minus user's training mean,Training,Float

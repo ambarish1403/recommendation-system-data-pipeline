@@ -1,0 +1,10 @@
+{
+  "random_seed": 42,
+  "n_users": 120,
+  "n_items": 80,
+  "interactions_per_user": 18,
+  "test_relevance_threshold": 4.0,
+  "k": 5,
+  "generate_synthetic": true,
+  "mlflow_experiment": "DM4ML-Assignment-2-Recommendations"
+}

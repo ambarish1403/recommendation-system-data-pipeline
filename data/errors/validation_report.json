@@ -1,0 +1,27 @@
+{
+  "row_counts": {
+    "users": 120,
+    "items": 80,
+    "interactions_input": 2164,
+    "interactions_valid": 2160,
+    "interactions_invalid": 4
+  },
+  "checks": {
+    "users_missing_values": 0,
+    "users_duplicate_rows": 0,
+    "items_missing_values": 0,
+    "items_duplicate_rows": 0,
+    "interactions_missing_values": 1,
+    "interactions_duplicate_rows": 0
+  },
+  "invalid_reason_counts": {
+    "missing_required_value": 1,
+    "invalid_rating_type": 1,
+    "rating_out_of_range": 2,
+    "invalid_timestamp": 1,
+    "unknown_user_id": 1,
+    "unknown_item_id": 1,
+    "duplicate_interaction": 0
+  },
+  "status": "passed_with_quarantined_records"
+}

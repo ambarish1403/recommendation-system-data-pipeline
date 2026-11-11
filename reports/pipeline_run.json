@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "started_at": "2026-11-11T17:54:51.796645+00:00",
+  "finished_at": "2026-11-11T17:54:53.968798+00:00",
+  "validation": "passed_with_quarantined_records",
+  "train_rows": 2040,
+  "test_rows": 120
+}
